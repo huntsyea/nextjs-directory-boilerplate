@@ -66,9 +66,9 @@ src/
 │ ├── Search.tsx # Search component
 │ ├── summaryCard.tsx # Summary card component
 │ └── TagFilter.tsx # Tag filter component
-├── config/ # Site configuration
+├── config/ # Site configuration (src/config)
 │ └── directory.config.ts
-├── content/ # MDX content files
+├── content/ # MDX content files (src/content)
 ├── lib/ # Utility functions
 │ ├── content.ts # Content management
 │ ├── metadata.ts # Metadata generation
