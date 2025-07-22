@@ -8,7 +8,7 @@ export interface ContentMeta {
   author?: string;
   date?: string;
   tags?: string[];
-  [key: string]: any; // Allow custom metadata
+  [key: string]: unknown; // Allow custom metadata
 }
 
 export interface ContentItem {
