@@ -13,7 +13,7 @@ export default function TagPage({ params }: { params: { tag: string } }) {
           <Link href="/">← Back to Home</Link>
         </Button>
         <h1 className="text-3xl font-bold font-heading">
-          Content tagged with &quot;{params.tag}&quot;
+          {`Content tagged with "${params.tag}"`}
         </h1>
       </div>
       <ContentGrid items={content} />
